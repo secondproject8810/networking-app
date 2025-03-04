@@ -1,0 +1,14 @@
+{
+  "name": "frontend-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "DatingApp"
+  ],
+  "scripts": {
+    "start": "cd DatingApp && npm start",
+    "android": "cd DatingApp && npm run android",
+    "ios": "cd DatingApp && npm run ios",
+    "web": "cd DatingApp && npm run web"
+  }
+} 
